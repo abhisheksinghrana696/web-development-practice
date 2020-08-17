@@ -1,0 +1,159 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  width:100%;
+  position: relative;
+  margin: auto;
+  /*margin-left:200px;*/
+  text-align:center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*header coding starting ....*/
+.header{
+  height:110px;
+  width:100%;
+  border:1px solid white;
+  background-color:black;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.header ul{
+      margin-top:40px;
+     list-style:none;
+     /*float:right;*/
+     /*margin-right:40px;*/
+} 
+
+.header ul li{
+  float:left;
+  width:170px;
+  height:40px;
+  margin-left:20px;
+  font-size:20px;
+  border:1px solid white;
+  text-align:center;
+  border-radius:10px;
+  padding-top:5px;
+  cursor:pointer;
+  display:block;
+  color:white;
+  background-color:green;
+  border-bottom:2px solid orange;
+
+
+}
+
+.header ul li a{
+  text-decoration:none;
+  /*background-color:green;*/
+  border-radius: 8px;
+  /*background:blue;*/
+  /*height: 10px;*/
+  
+}
+.header ul li:hover{
+  font-size:22px;
+  color:red;
+    
+}
+
+.header ul li a:hover{
+  font-size:22px;
+}
+
+
+.log{
+  position:absolute;
+  margin-left:1340px;
+  margin-top:20px;
+}
+
+.log a{
+  text-decoration:none;
+  color:white;
+  font-size:18px;
+  font-size:15px;
+}
+
+.log a:hover{
+  border-bottom:1px solid white;
+}
+
+
+
+
+
+
+/*Form coding ....*/
+.formfill{
+    width:500px;
+    height:300px;
+    border:1px solid red;
+    /*text-align:center;*/
+    margin-left:500px;
+    margin-top:200px;
+    padding-left:50px;
+
+}
+
+.formfill form input{
+  width:300px;
+  height:35px;
+  margin-left:40px;
+
+}
+
+.formfill form h1{
+
+}
+
+.formfill form p{
+  font-family:"Times New Romens";
+  font-size:22px;
+  font-weight:bold;
+
+}
